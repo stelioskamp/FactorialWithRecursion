@@ -12,7 +12,7 @@ int main()
     }while(number<0);
     fac=factorial(number);
     printf("\nthe factorial of %d! is %d",number,fac);
-
+    return 0;
 }
 long factorial(int num){
     if(num==0)
